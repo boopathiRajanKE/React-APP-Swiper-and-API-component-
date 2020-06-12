@@ -1,0 +1,72 @@
+.App {
+  max-width: 767px;
+  margin: 0 auto;
+}
+
+.headroom {
+  z-index: 100 !important;
+}
+.image-collection-wrapper {
+  overflow: hidden;
+}
+.image-wrapper {
+  overflow: hidden;
+  float: left;
+}
+.image-collection-wrapper img {
+  border-radius: 30px;
+  padding: 15px;
+  width: 40vw;
+  max-width: 333px;
+  max-height: 200px;
+}
+
+.image-collection-wrapper > div:nth-child(3n + 1) > img {
+  max-height: inherit;
+  min-height: 430px;
+}
+
+.card-text {
+  display: none;
+}
+.swiper-slide-active .card-text {
+  display: block;
+}
+.carousal-wrapper {
+  margin: 30px 15px;
+}
+.carousal-img-card {
+  width: 100%;
+}
+.carousal-card {
+  border-radius: 30px;
+}
+
+.header-wrapper {
+  margin: 25px 30px 20px;
+  background: white;
+  display: flex;
+}
+
+.extras-block {
+  display: flex;
+  margin-top: 10px;
+}
+
+.picture-element {
+  border-radius: 100px;
+  width: 58px;
+}
+
+.content-wrapper {
+  margin-left: 56px;
+}
+
+.name-element {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.extras-block > div {
+  margin-left: 20px;
+}
